@@ -1,0 +1,68 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(mind-blowing-questions.webp);
+    background-size: cover;
+    opacity: 8;
+    font-weight: 800;
+    font-size: 40px
+}
+.container{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-color: #f5f5f599;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+h4{
+    margin-bottom: 50px;
+    font-family: math;
+}
+.row{
+    width: 100%;
+    height: 100px;
+     /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px
+    
+}
+.box:hover{
+    background-color: brown;
+    z-index: 1;
+    cursor: pointer;
+}
+#restart{
+    width: 115px;
+    height: 50px;
+    border-radius: 15px;
+    background-color:#f5f5f599;
+    font-family: math;
+    font-weight: 100;
+    margin-top: 20px;
+
+}
+#restart:hover{
+    background-color: brown;
+    z-index: 1;
+    cursor: pointer;
+}
